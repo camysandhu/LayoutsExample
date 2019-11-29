@@ -28,6 +28,7 @@ private Button coodBtn;
             {
                 Intent mIntent = new Intent(MainActivity.this, ScrollViewExample.class);
                 startActivity(mIntent);
+                //finish();
             }
         });
 
