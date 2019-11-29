@@ -16,7 +16,7 @@
         app:srcCompat="@mipmap/ic_icon_smile_round" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/scrollBtn"
         android:layout_width="match_parent"
         android:layout_height="47dp"
         android:layout_marginTop="110dp"
@@ -25,7 +25,7 @@
         android:textColor="#FFF" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/nestedScrollBtn"
         android:layout_width="match_parent"
         android:layout_height="47dp"
         android:layout_marginTop="40dp"
@@ -34,7 +34,7 @@
         android:text="NestedScrollView" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/coordinatorBtn"
         android:layout_width="match_parent"
         android:layout_height="47dp"
         android:layout_marginTop="40dp"
