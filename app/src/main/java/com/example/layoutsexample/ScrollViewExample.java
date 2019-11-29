@@ -36,8 +36,47 @@ public class ScrollViewExample extends AppCompatActivity {
         ac3= findViewById(R.id.actionBtn3);
         ac4= findViewById(R.id.actionBtn4);
         ac5= findViewById(R.id.actionBtn5);
+        ac1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(),
+                        "ActionButton1 Clicked",
+                        Toast.LENGTH_SHORT).show();
+            }
+        });
 
-
+          ac2.setOnClickListener(new View.OnClickListener() {
+              @Override
+              public void onClick(View v) {
+                  Toast.makeText(getApplicationContext(),
+                          "ActionButton2 Clicked",
+                          Toast.LENGTH_SHORT).show();
+              }
+          });
+        ac3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(),
+                        "ActionButton3 Clicked",
+                        Toast.LENGTH_SHORT).show();
+            }
+        });
+        ac4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(),
+                        "ActionButton4 Clicked",
+                        Toast.LENGTH_SHORT).show();
+            }
+        });
+        ac5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(),
+                        "ActionButton5 Clicked",
+                        Toast.LENGTH_SHORT).show();
+            }
+        });
         bikeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v)
@@ -57,9 +96,12 @@ public class ScrollViewExample extends AppCompatActivity {
                     Snackbar.make(buttonView,"Action By SwitchOn",Snackbar.LENGTH_SHORT).show();
 
                 }
-                else
-                {
-                    Snackbar.make(buttonView,"Action By SwitchOff",Snackbar.LENGTH_SHORT).show();
+                else {
+                    Snackbar.make(buttonView, "Action By SwitchOff", Snackbar.LENGTH_SHORT).show();
+//                    Toast.makeText(getApplicationContext(),
+//                            "ACTION BAR OFF",
+//                            Toast.LENGTH_SHORT).show();
+//                }
                 }
             }
         });
