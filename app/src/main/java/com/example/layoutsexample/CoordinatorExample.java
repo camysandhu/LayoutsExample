@@ -47,7 +47,7 @@ ImageView imageView;
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
-    }
+    }//shada
 
     public boolean onOptionsItemSelected(MenuItem item){
         switch (item.getItemId()) {
